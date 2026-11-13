@@ -1,0 +1,14 @@
+{
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    },
+    "rust-analyzer.rustfmt.overrideCommand": [
+        "/opt/homebrew/opt/rustup/bin/rustfmt",
+        "--edition",
+        "2024"
+    ],
+    "rust-analyzer.server.extraEnv": {
+        "PATH": "/opt/homebrew/opt/rustup/bin:${env:PATH}"
+    }
+}
